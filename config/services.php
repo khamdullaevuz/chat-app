@@ -32,7 +32,7 @@ return [
     ],
 
     'websocket' => [
-        'host' => env('WEBSOCKET_HOST', 'ws://192.168.42.50:8080'),
+        'host' => env('WEBSOCKET_HOST', 'ws://127.0.0.1:8080'),
     ]
 
 ];
